@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9370DB;
+}
+
+.header-section {
+    background-color: azure;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.content a {
+    margin: 80px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.content a:hover {
+    color: rgba(25, 135, 152, 0.87);
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.login-form,
+.image {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.login-fields {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.login-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.email-field,
+.password-field,
+.company-field {
+    margin-bottom: 35px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+    outline: none;
+    border-color: #4a90e2
+}
+
+.signInBtn {
+    width: 100%;
+    padding: 12px;
+    background-color: #333333
+    ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer
+}
+
+.signInBtn:hover {
+    background-color: #000;    ;
+}
+
+.forgot-link {
+    margin-top: 15px;
+    text-align:left;
+    margin-top: 10px;
+}
+
+.forgot-link a {
+    text-decoration: underline;
+    color: #4a90e2;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+}

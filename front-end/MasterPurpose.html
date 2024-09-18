@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Administrator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://unpkg.com/alpinejs" defer></script>
+    <link rel="stylesheet" href="MasterPurpose.css">
+</head>
+<body>
+    <section class="header-section">
+        <header class="header">
+            <div class="logo">
+                <img src="" alt="CHEITA LOGO">
+            </div>
+
+            <div class="content">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Log Out</a>
+            </div>
+        </header>
+    </section>
+
+    <section class="form-section">
+        <div class="collector-form">
+            <div class="dashboard">
+                <h2 class="dashboard-text">DASHBOARD</h2>
+                <div class="icon">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+
+                    <span class="material-symbols-outlined">
+                        settings
+                    </span>
+                </div>
+            </div>
+            
+            <div class="collector-fields">
+                <h2 class="data-collector">MASTER ADMINISTRATOR</h2>
+                <div class="main">
+                    <div class="fieldset">
+                        <div class="sub-field">
+                            <div class="purpose-field">
+                                <label for="options">Purpose</label>
+                                <select name="purpose" id="options" required>
+                                    <option value="" disabled selected>Select a purpose</option>
+                                    <option value="option1">purpose1</option>
+                                    <option value="option2">purpose2</option>
+                                    <option value="option3">purpose n</option>
+                                </select>
+                            </div>
+        
+                            <div class="year-field">
+                                <label for="options">Year</label>
+                                <select name="year" id="options" required>
+                                    <option value="" disabled selected>Select a year</option>
+                                    <option value="option2">Year 1</option>
+                                    <option value="option3">Year 2</option>
+                                    <option value="option3">Year N</option>
+                                </select>
+                            </div>
+        
+                            <div class="submitBtn">
+                                <button class="dataBtn" id="dataColBtn">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

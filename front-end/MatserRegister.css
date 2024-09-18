@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9370DB;
+}
+
+.header-section {
+    background-color: azure;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.content a {
+    margin: 80px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.content a:hover {
+    color: rgba(25, 135, 152, 0.87);
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.collector-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data-collector {
+    text-align: center;
+    color: #fff;
+}
+
+.dashboard-text {
+    color: #fff;
+}
+
+.dashboard {
+    width: 25em;
+    margin-right: 3em;
+}
+
+.dashboard .icon {
+    background-color:#f7f7f7;
+    padding: 30px;
+    margin-top: .5em;
+    height: 550px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon span {
+    display: block;
+    padding: 10px;
+    font-size: 80px;
+    text-align: center;
+    color: #9370DB;
+}
+
+.main-collection {
+    background-color: #f7f7f7;
+    padding: 30px;
+    margin-top: .5em;
+    height: 550px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60em;
+}
+
+.sub-fields {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 56em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.name-field,
+.username-field,
+.email-field,
+.formId-field,
+select {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="name"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="email"]:focus,
+input[type="text"]:focus,
+select:focus {
+    outline: none;
+    border-color: #4a90e2
+}
+
+.signUpBtn {
+    width: 100%;
+    padding: 12px;
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer
+}
+
+.signUpBtn:hover {
+    background-color: #000;    ;
+}
+
+.haveAcc {
+    margin-top: 1.5em;
+    text-decoration: none;
+}
+
+.haveAcc span a {
+    padding-right: 5em;
+}
